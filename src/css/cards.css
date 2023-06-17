@@ -1,0 +1,21 @@
+.cardsContainer {
+    margin-top: 50px;
+    display: flex; 
+    flex-wrap: wrap;
+    width: 100%; 
+    gap: 20px; 
+    align-items: center;
+    justify-content: center;}
+
+
+.card {  
+
+    max-width: 350px;
+
+   }
+
+   .image-perro { 
+
+width: 100%; height: 350px;
+
+   }
