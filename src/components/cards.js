@@ -20,7 +20,7 @@ alt= {props.alt}  />
     <ul className="list-group list-group-flush">
     <li className="list-group-item">Edad:</li>
     <li className="list-group-item">Sexo:</li>
-    <li className="list-group-item">Personalidad:</li>
+    <li className="list-group-item">Castrado:</li>
   </ul>
  
     <a href="#" className=" btn btn-primary">Mas Info</a>

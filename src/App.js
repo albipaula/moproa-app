@@ -5,6 +5,8 @@ import './css/hero.css';
 import './css/cards.css';
 import './css/navbar.css';
 import './css/moproaSection.css';
+import './css/footer.css';
+import Footer from './components/footer'
 import NavBar from './components/NavBar';
 import Hero from './components/Hero';
 import Cards from './components/cards';
@@ -43,7 +45,7 @@ function App() {
         </div>
         </section>
         <h2> Veni a conocernos </h2>
-      <div className='cardsContainer container'>
+      <div className='cardsContainer container d-flex'>
      
   
          <Cards  
@@ -55,7 +57,7 @@ function App() {
       />
          <Cards  
       nombre= 'Pinky'
-      image = 'perro2'
+      image = 'perro7'
       alt =' dog1'
    
       />
@@ -67,38 +69,39 @@ function App() {
       />
             <Cards  
       nombre= 'Pinky'
-      image = 'perro3'
+      image = 'perro4'
       alt =' dog1'
    
       />
               <Cards  
       nombre= 'Pinky'
-      image = 'perro3'
+      image = 'perro5'
       alt =' dog1'
    
       />
               <Cards  
       nombre= 'Pinky'
-      image = 'perro3'
+      image = 'perro6'
       alt =' dog1'
    
       />
       
       </div>
-      <section className='moproaSection'>
+      <section className='moproaSection container'>
        
       <h2>Somos Mo.Pro.A  </h2>
       <h2>MOVIMIENTO DE PROTECCION ANIMAL </h2>
       <div className='moproaSectionCard'>
 
 
-<Refugio image = 'voluntario' />
+<Refugio image = 'voluntario' text='Nuestra ONG se encarga de dar tránsito , curaciones, rehabilitación y busuqeda de un hogar apropiado a nuestrois perros rescatados de situaciones insalubres, maltrato o accidentados con un riguroso seguimiento de adaptacion a su nuevo ohogar. 
+En este momento nuestro refugio NO recibe animalitos, ni puede dar tránsito ya que se encuentra poblado por mas de 40 perros en recuperación y en espera de un hogar' />
 </div>
       <div>
      
       </div>
       </section>
-      <section className='voluntariadoSection'>
+      <section className='voluntariadoSection container'>
 <h2>Queres ser voluntario? </h2>
 
  
@@ -124,24 +127,17 @@ function App() {
    text= ' Alias: refugio.perris.amor'
   />
     <h2>¿En qué consiste ser voluntario de MOPROA?* </h2>
-<Refugio  image='voluntario' text='' /> 
-
-   <ul>
-    <li>Podes hacer traslados si tenes auto y disponibilidad.</li>
-    <li>Podes manejar nuestras redes.</li>
-    <li>Podes acercarte a la calle Gutierrez donde nos juntamos a recaudar dinero.</li>
-    <li>Acercarte a las jornadas que hacemos en el refugio donde limpiamos los caniles, abrazamos a los peludos, los sacamos al espacio de recreación, les damos muchos besos y arreglamos espacios rotos.
-</li>
-    <li>Si está en tus posibilidades podes colaborar con dinero.</li>
+<Refugio  image='voluntario' text='Podes hacer traslados si tenes auto y disponibilidad.
+Podes manejar nuestras redes.
+Podes acercarte a la calle Gutierrez donde nos juntamos a recaudar dinero.
+Acercarte a las jornadas que hacemos en el refugio donde limpiamos los caniles, abrazamos a los peludos, los sacamos al espacio de recreación, les damos muchos besos y arreglamos espacios rotos.
+Si está en tus posibilidades podes colaborar con dinero. <h2>¡Toda propuesta que tengas es bienvenida!</h2>' /> 
 
 
-<h2>¡Toda propuesta que tengas es bienvenida!</h2>
-
-</ul>
 </div>
 
 
-<NavBar />
+<Footer />
     </div>
    
 
