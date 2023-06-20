@@ -1,9 +1,6 @@
 import React from 'react';
 import '../css/navbar.css';
 import logo from '../images/logo-moproa.jpg'
-
-
-
 function NavBar () {
 
 return (
@@ -46,10 +43,10 @@ return (
         </li>
       </ul>
       <ul className='navbar-nav '>
-      <li className='nav-item d-flex '>
-          <a className='nav-link active' aria-current='page' href='#'>Instagram</a>
-          <a className='nav-link active' aria-current='page' href='#'>Facebook</a>
-        </li>
+      <li className='nav-item'>
+          <a className='nav-link active ' aria-current='page' href='#'>Instagram</a></li> 
+          <li className='nav-item'>
+          <a className='nav-link active' aria-current='page' href='#'></a> </li>
       </ul>
      
     </ div>

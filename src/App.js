@@ -13,6 +13,7 @@ import Cards from './components/cards';
 import Refugio from './components/refugio';
 import Noticias from './components/Noticias';
 import Pasos from './components/pasos';
+import Voluntariado from './components/voluntariado'
 import './components/NavBar';
 import './components/cards';
 import './components/Noticias';
@@ -21,11 +22,13 @@ import './css/pasos.css';
 
 
 
+
 function App() {
   return (
     <div className="App">
 
-      <NavBar />
+      <NavBar  />
+
       <Hero />
       <section  >
       <h1> Queres adoptar ?</h1>
@@ -47,42 +50,60 @@ function App() {
         <h2> Veni a conocernos </h2>
       <div className='cardsContainer container d-flex'>
      
-  
+      <Cards  
+      nombre= 'China'
+      image = 'perro1'
+      alt =' dog1'
+      descripcion=' Soy china, para los que me quieren soy la Chinita. Soy un amor de tamanio pequenio, muy jugetona y sonriente. Me gusta, saltar, correr , jugar y dar mucho amor.'
+      edad =' 3 anios'
+      sexo= 'hembra'
+   
+      />
          <Cards  
 
       nombre= 'Manju'
       image = 'perro3'
       alt =' dog1'
+      descripcion=' Soy china, para los que me quieren soy la Chinita. Soy un amor de tamanio pequenio, muy jugetona y conriente. Me gusta, saltar, correr , jugar y dar mucho amor.'
+      edad =' 3 anios'
+      sexo= 'hembra'
    
       />
          <Cards  
       nombre= 'Pinky'
       image = 'perro7'
       alt =' dog1'
+      descripcion=' Soy china, para los que me quieren soy la Chinita. Soy un amor de tamanio pequenio, muy jugetona y conriente. Me gusta, saltar, correr , jugar y dar mucho amor.'
+      edad =' 3 anios'
+      sexo= 'hembra'
    
       />
-            <Cards  
-      nombre= 'Pinky'
-      image = 'perro1'
-      alt =' dog1'
-   
-      />
+      
             <Cards  
       nombre= 'Pinky'
       image = 'perro4'
       alt =' dog1'
+      descripcion=' Soy china, para los que me quieren soy la Chinita. Soy un amor de tamanio pequenio, muy jugetona y conriente. Me gusta, saltar, correr , jugar y dar mucho amor.'
+      edad =' 3 anios'
+      sexo= 'hembra'
    
       />
               <Cards  
       nombre= 'Pinky'
       image = 'perro5'
       alt =' dog1'
+      descripcion=' Soy china, para los que me quieren soy la Chinita. Soy un amor de tamanio pequenio, muy jugetona y conriente. Me gusta, saltar, correr , jugar y dar mucho amor.'
+      edad =' 3 anios'
+      sexo= 'hembra'
    
       />
               <Cards  
       nombre= 'Pinky'
       image = 'perro6'
       alt =' dog1'
+      descripcion=' Soy china, para los que me quieren soy la Chinita. Soy un amor de tamanio pequenio, muy jugetona y conriente. Me gusta, saltar, correr , jugar y dar mucho amor.'
+      edad =' 3 anios'
+      sexo= 'hembra'
    
       />
       
@@ -126,13 +147,10 @@ En este momento nuestro refugio NO recibe animalitos, ni puede dar tránsito ya 
    paso = 'Dinero'
    text= ' Alias: refugio.perris.amor'
   />
+  <section > 
     <h2>¿En qué consiste ser voluntario de MOPROA?* </h2>
-<Refugio  image='voluntario' text='Podes hacer traslados si tenes auto y disponibilidad.
-Podes manejar nuestras redes.
-Podes acercarte a la calle Gutierrez donde nos juntamos a recaudar dinero.
-Acercarte a las jornadas que hacemos en el refugio donde limpiamos los caniles, abrazamos a los peludos, los sacamos al espacio de recreación, les damos muchos besos y arreglamos espacios rotos.
-Si está en tus posibilidades podes colaborar con dinero. <h2>¡Toda propuesta que tengas es bienvenida!</h2>' /> 
-
+<Voluntariado image='voluntario'  /> 
+</section>
 
 </div>
 

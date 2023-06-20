@@ -1,9 +1,21 @@
 
 .moproaSectionCard { 
-padding: 20px;
-     display: flex;
-     flex-wrap: wrap;
-      align-items: center;
-      justify-content: center;}
+  padding: 20px;
+  display: flex;
+ 
+  align-items: center;
+  justify-content: center;
+  }
 
-      .img-refugio { width: 400px; }
+  .img-refugio { max-width: 400px; }
+
+.containerRefugio { height: auto}
+
+  li { text-align: justify;}
+
+
+  @media  screen and (max-width:1000px) {
+    .moproaSectionCard { flex-wrap: wrap;}
+
+    
+  }

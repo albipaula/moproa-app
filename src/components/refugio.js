@@ -6,7 +6,9 @@ return(
 
 <div className="moproaSectionCard container" >
 <img   className="img-refugio" src={require(`../images/image-${props.image}.svg`) }    />
-<div className="container">
+<div className="containerRefugio">
+
+  
 <p> {props.text}
 
 </p>
