@@ -11,4 +11,4 @@
     border-radius: 45px;
 }
 
-.navbar-collapse { background-color: white;}
+.navbar-collapse { background-color: white; padding: 30px; border-radius: 30px;}

@@ -34,17 +34,22 @@ function App() {
       <h1> Queres adoptar ?</h1>
       <div className='pasosContainer'>
       <Pasos
-       image='reunion'
+       image='formMoproa'
         paso = 'PASO 1'
         text= 'Rellena la solicitud de adopción ' />
                 <Pasos
-                image='interview'
+                image='entrevista'
         paso = 'PASO 2'
         text= ' Entrevista y visita domiciliaria' />
                 <Pasos
-                image='reunion'
+                image='refugioMoproa'
         paso = 'PASO 3'
-        text= ' Reunión de adopción' />
+        text= ' Visita al Refugio para conocerlo' />
+
+        <Pasos
+                image='voluntario'
+        paso = 'PASO 4'
+        text= ' Familia Feliz ' />
         </div>
         </section>
         <h2> Veni a conocernos </h2>
@@ -54,18 +59,19 @@ function App() {
       nombre= 'China'
       image = 'perro1'
       alt =' dog1'
-      descripcion=' Soy china, para los que me quieren soy la Chinita. Soy un amor de tamanio pequenio, muy jugetona y sonriente. Me gusta, saltar, correr , jugar y dar mucho amor.'
+      descripcion=' Soy china, para los que me quieren soy la Chinita. Soy un amor de tamaño pequeño, muy jugetona y conriente. Me gusta, saltar, correr , jugar y dar mucho amor.'
       edad =' 3 anios'
       sexo= 'hembra'
+      tamano= 'mediano'
    
       />
          <Cards  
 
-      nombre= 'Manju'
+      nombre= 'China'
       image = 'perro3'
       alt =' dog1'
-      descripcion=' Soy china, para los que me quieren soy la Chinita. Soy un amor de tamanio pequenio, muy jugetona y conriente. Me gusta, saltar, correr , jugar y dar mucho amor.'
-      edad =' 3 anios'
+      descripcion=' Soy china, para los que me quieren soy la Chinita. Soy un amor de tamaño pequeño, muy jugetona y conriente. Me gusta, saltar, correr , jugar y dar mucho amor.'
+      edad =' 3 años'
       sexo= 'hembra'
    
       />
@@ -73,8 +79,8 @@ function App() {
       nombre= 'Pinky'
       image = 'perro7'
       alt =' dog1'
-      descripcion=' Soy china, para los que me quieren soy la Chinita. Soy un amor de tamanio pequenio, muy jugetona y conriente. Me gusta, saltar, correr , jugar y dar mucho amor.'
-      edad =' 3 anios'
+      descripcion=' Soy china, para los que me quieren soy la Chinita. Soy un amor de tamaño pequeño, muy jugetona y conriente. Me gusta, saltar, correr , jugar y dar mucho amor.'
+      edad =' 3 años'
       sexo= 'hembra'
    
       />
@@ -83,8 +89,8 @@ function App() {
       nombre= 'Pinky'
       image = 'perro4'
       alt =' dog1'
-      descripcion=' Soy china, para los que me quieren soy la Chinita. Soy un amor de tamanio pequenio, muy jugetona y conriente. Me gusta, saltar, correr , jugar y dar mucho amor.'
-      edad =' 3 anios'
+      descripcion=' Soy china, para los que me quieren soy la Chinita. Soy un amor de tamaño pequeño, muy jugetona y conriente. Me gusta, saltar, correr , jugar y dar mucho amor.'
+      edad =' 3 años'
       sexo= 'hembra'
    
       />
@@ -92,8 +98,8 @@ function App() {
       nombre= 'Pinky'
       image = 'perro5'
       alt =' dog1'
-      descripcion=' Soy china, para los que me quieren soy la Chinita. Soy un amor de tamanio pequenio, muy jugetona y conriente. Me gusta, saltar, correr , jugar y dar mucho amor.'
-      edad =' 3 anios'
+      descripcion=' Soy china, para los que me quieren soy la Chinita. Soy un amor de tamaño pequeño, muy jugetona y conriente. Me gusta, saltar, correr , jugar y dar mucho amor.'
+      edad =' 3 años'
       sexo= 'hembra'
    
       />
@@ -101,8 +107,8 @@ function App() {
       nombre= 'Pinky'
       image = 'perro6'
       alt =' dog1'
-      descripcion=' Soy china, para los que me quieren soy la Chinita. Soy un amor de tamanio pequenio, muy jugetona y conriente. Me gusta, saltar, correr , jugar y dar mucho amor.'
-      edad =' 3 anios'
+      descripcion=' Soy china, para los que me quieren soy la Chinita. Soy un amor de tamaño pequeño, muy jugetona y conriente. Me gusta, saltar, correr , jugar y dar mucho amor.'
+      edad =' 3 años'
       sexo= 'hembra'
    
       />
@@ -136,7 +142,7 @@ En este momento nuestro refugio NO recibe animalitos, ni puede dar tránsito ya 
    paso = 'Donacion de alimento'
    text= 'Recibimos alimentos ' />
      <Pasos
-           image='reunion'
+           image='voluntario'
    paso = 'Ser Voluntario'
    text= 'Jornadas en el Refugio'
    
