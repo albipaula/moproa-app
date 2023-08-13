@@ -1,9 +1,10 @@
 
 .App { 
     font-size: 18px;
+    box-sizing: border-box;
 }
 
-h1 ,h2,p,li { text-align: center; margin-top: 20px;}
+h1 ,h2,li { text-align: center; margin-top: 20px; text-transform: uppercase;}
 
 
 img { width: 100%; height: auto; object-fit: cover;}

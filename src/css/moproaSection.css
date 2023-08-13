@@ -9,7 +9,7 @@
 
   .img-refugio { max-width: 400px; }
 
-.containerRefugio { height: auto}
+.containerRefugio {width: 100%; height: auto}
 
   li { text-align: justify;}
 

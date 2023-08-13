@@ -5,7 +5,7 @@ import React from "react";
 function Voluntariado (props) { 
 return(
 
-<div className="moproaSectionCard container" >
+<div className="moproaSectionCard container" id="serVoluntario" >
 <img   className="img-refugio" src={require(`../images/image-${props.image}.svg`) }    />
 <div className="container-voluntariado">
 

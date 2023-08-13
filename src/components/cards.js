@@ -10,7 +10,7 @@ return (
 
 
 
-<div className="card" >
+<div className="card" id="perros" >
 <img  className="image-perro"
   src={require(`../images/image-${props.image}.webp`) }  
 alt= {props.alt}  />

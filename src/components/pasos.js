@@ -5,7 +5,7 @@ function Pasos (props) {
 return ( 
 
 
-<div className="pasosItems" >
+<div className="pasosItems " >
    
 <img  className="icono"
   src={require(`../images/image-${props.image}.svg`) }  

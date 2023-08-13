@@ -12,8 +12,8 @@ function Footer () {
                         <div class='single-cta'>
                             <i class='fas fa-map-marker-alt'></i>
                             <div class='cta-text'>
-                                <h4>Find us</h4>
-                                <span>1010 Avenue, sw 54321, chandigarh</span>
+                                <h4>Direccion</h4>
+                                <span>Las Heras - Mendoza </span>
                             </div>
                         </div>
                     </div>
@@ -21,7 +21,7 @@ function Footer () {
                         <div class='single-cta'>
                             <i class='fas fa-phone'></i>
                             <div class='cta-text'>
-                                <h4>Call us</h4>
+                                <h4>Contacto</h4>
                                 <span>9876543210 0</span>
                             </div>
                         </div>
@@ -30,7 +30,7 @@ function Footer () {
                         <div class='single-cta'>
                             <i class='far fa-envelope-open'></i>
                             <div class='cta-text'>
-                                <h4>Mail us</h4>
+                                <h4>email</h4>
                                 <span>mail@info.com</span>
                             </div>
                         </div>
@@ -45,8 +45,7 @@ function Footer () {
                                 <a href='index.html'><img src={logo} class='img-fluid' alt='logo'/></a>
                             </div>
                             <div class='footer-text'>
-                                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
-                                elit,Lorem ipsum dolor sit amet.</p>
+                                <p>Nuestra ONG se encarga de dar tránsito , curaciones, rehabilitación y busuqeda de un hogar apropiado a nuestrois perros rescatados de situaciones insalubres, maltrato o accidentados con un riguroso seguimiento de adaptacion a su nuevo ohogar.</p>
                             </div>
                             <div class='footer-social-icon'>
                                 <span>Seguinos</span>
@@ -59,19 +58,16 @@ function Footer () {
                     <div class='col-xl-4 col-lg-4 col-md-6 mb-30 align-center row'>
                         <div class='footer-widget'>
                             <div class='footer-widget-heading'>
-                                <h3>Useful Links</h3>
+                                <h3>Refugio Mo.PRo.A</h3>
                             </div>
                             <ul>
-                                <li><a href='#'>Home</a></li>
-                                <li><a href='#'>about</a></li>
-                                <li><a href='#'>services</a></li>
-                                <li><a href='#'>portfolio</a></li>
-                                <li><a href='#'>Contact</a></li>
-                                <li><a href='#'>About us</a></li>
-                                <li><a href='#'>Our Services</a></li>
-                                <li><a href='#'>Expert Team</a></li>
-                                <li><a href='#'>Contact us</a></li>
-                                <li><a href='#'>Latest News</a></li>
+                                <li><a href='#'>Inicio</a></li>
+                                <li><a href='#'>Sobre Nosotros</a></li>
+                                <li><a href='#'>Voluntarios</a></li>
+                                <li><a href='#'>Notas</a></li>
+                                <li><a href='#'>Galeria</a></li>
+                                <li><a href='#'>Donaciones</a></li>
+                                <li><a href='#'>Contactanos</a></li>
                             </ul>
                         </div>
                     </div>
@@ -84,17 +80,17 @@ function Footer () {
                 <div class='row'>
                     <div class='col-xl-6 col-lg-6 text-center text-lg-left'>
                         <div class='copyright-text'>
-                            <p>Copyright &copy; 2018, All Right Reserved <a href='https://codepen.io/anupkumar92/'>Anup</a></p>
+                            <p>Copyright &copy; 2023, Todos los derechos reservados <a href='https://codepen.io/anupkumar92/'>Refugio Moproa</a></p>
                         </div>
                     </div>
                     <div class='col-xl-6 col-lg-6 d-none d-lg-block text-right'>
                         <div class='footer-menu'>
                             <ul>
-                                <li><a href='#'>Home</a></li>
-                                <li><a href='#'>Terms</a></li>
-                                <li><a href='#'>Privacy</a></li>
-                                <li><a href='#'>Policy</a></li>
-                                <li><a href='#'>Contact</a></li>
+                                <li><a href='#'>Inicio</a></li>
+                                <li><a href='#'>Terminos</a></li>
+                                <li><a href='#'>Privacidad</a></li>
+                                <li><a href='#'>Politicas</a></li>
+                                <li><a href='#'>Contacto</a></li>
                             </ul>
                         </div>
                     </div>
